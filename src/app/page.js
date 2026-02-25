@@ -55,5 +55,21 @@ export default function Home() {
       </section>
 
     </main>
-  );
+  );<div className="bg-neutral-900 p-6 rounded-2xl hover:scale-105 transition duration-300">
+  <img
+    src="/images/tee2.png"
+    alt="New Product"
+    className="w-full h-[400px] object-cover rounded-xl"
+  />
+  <h2 className="mt-6 text-2xl font-semibold">
+    New Tee
+  </h2>
+  <p className="text-gray-400 mt-2">₹1099</p>
+  <button
+    onClick={() => window.location.href="YOUR_RAZORPAY_LINK"}
+    className="mt-6 w-full bg-white text-black py-3 rounded-xl font-semibold hover:bg-gray-200 transition"
+  >
+    Buy Now
+  </button>
+</div>
 }
